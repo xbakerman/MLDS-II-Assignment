@@ -314,9 +314,6 @@ processed_hard_ham_mails = process_emails(hard_ham_mail_folder)
 
 The emails are vectorized and the vocabulary size, vocabulary and feature 
 matrix dimension are extracted.
-
-To get an idea of the most common words in the emails, the word frequencies 
-are analyzed.
 '''
 # Combines all emails
 all_emails = processed_spam_mails + \
@@ -333,7 +330,10 @@ vocab = vectorizer.get_feature_names_out()
 
 
 ######################### WORD FREQUENCY ANALYSIS##############################
-'''To use only the most relevant words, the words with the highest 
+'''To get an idea of the most common words in the emails, the word frequencies 
+are analyzed.
+
+To use only the most relevant words, the words with the highest 
 difference in frequency between spam and ham emails are selected.
 
 The emails are then vectorized again using only the relevant words.
