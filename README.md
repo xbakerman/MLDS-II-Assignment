@@ -11,7 +11,7 @@ The report with explanation of the code and decisions is in the 'SpamFilter_Repo
 
 For this project I used:
 - [python](https://www.python.org/) as programming language
-- [PDM](https://pdm-project.org/latest/) for the `python` package management
+- [PDM](https://pdm-project.org/latest/) for the `python` package management since we also used this in the course
 
 ### Python
 
