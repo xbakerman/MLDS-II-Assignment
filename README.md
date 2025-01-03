@@ -5,7 +5,7 @@ This is the repository for the Machine Learning & Data Science 2 final Assignmen
 The goal is to create a spam filter for emails.
 The datasets are from the [SpamAssassin Public Corpus](https://spamassassin.apache.org/old/publiccorpus/) and are in the 'Datasets' folder.
 The source code is in the 'main.py' file.
-The report with explanation of the code and decisions is in the 'SpamFilter_Report_Nachbaur_Maximilian.pdf' file.
+The report with explanation of the code and decisions is in the 'Report_SpamFilter_Maximilian_Nachbaur.pdf' file.
 
 ## Setup
 
